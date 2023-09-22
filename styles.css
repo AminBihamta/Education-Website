@@ -142,6 +142,8 @@ body {
 
 .cell img {
     width: 18vw;
+    height: 10vw;
+    object-fit: cover;
     margin: 1vw;
     border-radius: 1vw;
 }
