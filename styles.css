@@ -56,6 +56,131 @@ body {
 }
 
 .header a:hover {
+    color: #ff7575;
+}
+
+.siteInfo {
+    display: flexbox;
+    text-align: center;
+    margin-top: 4vw;
+    margin-bottom: 8vw;
+}
+
+.siteInfo img {
+    width: 15%;
+    padding: 0px;
+    margin: 0px;  
+}
+
+.siteInfo h1{
+    font-size: 4vw;
+    padding: 0px;
+    margin: 0px;
+    letter-spacing: 1px;
+    color: #ff7575;
+}
+
+.siteInfo h2 {
+    padding: 0px;
+    margin: 0px;
+    font-weight: 300;
+    font-size: 1.5vw;
+    margin-top: 10px;
+}
+
+
+@media only screen and (max-width: 960px) {
+    .siteInfo img {
+        width: 20%;
+        padding: 0px;
+        margin: 0px;  
+    }
+
+    .siteInfo h1{
+        font-size: 6vw;
+        padding: 0px;
+        margin: 0px;
+        letter-spacing: 1px;
+        color: #ff7575;
+    }
+    
+    .siteInfo h2 {
+        padding: 0px;
+        margin: 0px;
+        font-weight: 300;
+        font-size: 2.5vw;
+        margin-top: 10px;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    margin: 2.5vw 0vw 2.5vw 0vw;
+    color: black;
+}
+
+.cell:nth-child(-n+2) {
+    margin-right: 5vw;
+}
+
+.cell {
     background-color: white;
+    width: 20vw;
+    height: 25vw;
+    border-radius: 2vw;
+    float: left;
+    text-decoration: none;
     color: #232830;
+}
+
+.cell:hover {
+    background-color: #ff7575;
+    color: white;
+}
+
+
+.cell img {
+    width: 18vw;
+    margin: 1vw;
+    border-radius: 1vw;
+}
+
+.cell h3 {
+    margin: 0px;
+    font-size: 1.3vw;
+    margin: 0vw 1vw 0vw 1vw;
+}
+
+.cell p {
+    font-size: 1vw;
+    margin: 1vw;
+}
+
+.pageSelector {
+    display: flex;
+    justify-content: center;
+}
+
+.pageSelector ul{
+    list-style-type: none;
+}
+
+.pageSelector li {
+    display: inline;
+    padding: 1.5vw;
+}
+
+.pageSelector a {
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5vw;
+}
+
+.pageSelector a:hover {
+    color: #ff7575;
+}
+
+.posts {
+    margin-bottom: 2vw;
 }
